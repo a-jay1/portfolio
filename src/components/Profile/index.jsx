@@ -2,7 +2,7 @@ import React from 'react';
 import data from '../../data/info.json';
 import Image from 'next/image';
 import profileImg from '../../../public/assets/profile-1.png';
-import Button from '../Button';
+import Button from '../ui';
 
 const ProfileComponent = () => {
 
@@ -16,8 +16,8 @@ const ProfileComponent = () => {
         <h2 className='font-medium text-base leading-[52px]'>{profile.role}</h2>
         <p className='font-light text-xs leading-4'>{profile.description}</p>
         <div className='flex justify-around'>
-            <Button label={profile.btn1}/>
-            <Button label={profile.btn2}/>
+            <Button btnText={profile.btn1}/>
+            <Button btnText={profile.btn2}/>
         </div>
     </div>
   ) 
