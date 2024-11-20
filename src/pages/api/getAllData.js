@@ -1,9 +1,10 @@
 import { MongoClient } from "mongodb";
+import nextConfig from "../../../next.config.mjs";
 
 export default async function handler(req, res) {
     if (req.method === "GET") {
 
-        const mongoCred = "mongodb+srv://ajayalagesan:Ajay%405510@cluster0.ujy7xqk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+        const mongoCred = nextConfig.env.MONGODB_URI;
 
         const client = new MongoClient(mongoCred, {
             useNewUrlParser: true,
