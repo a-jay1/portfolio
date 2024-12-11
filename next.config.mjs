@@ -3,7 +3,7 @@ const nextConfig = {
     reactStrictMode: true, // Enable React strict mode for better development experience
     swcMinify: true, // Use SWC for faster builds and minification
     images: {
-      domains: ['example.com'], // Allow external domains for optimized images (replace 'example.com' with your domain)
+      domains: ['aj-ay.netlify.app'], // Allow external domains for optimized images (replace 'example.com' with your domain)
     },
     webpack(config) {
       // Add custom webpack rules

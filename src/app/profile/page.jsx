@@ -1,6 +1,7 @@
 "use client";
 
 import About from '@/components/about';
+import Contact from '@/components/Contact';
 import Navbar from '@/components/Navbar'
 import ProfileComponent from '@/components/Profile';
 import ProjectTab from '@/components/ProjectTab';
@@ -15,9 +16,13 @@ const Profile = () => {
     <div className='bg-#000'>
       <div className='mt-5 mx-2 bg-[#192A46] rounded-3xl'>
         <Navbar theme={theme}/>
-        <ProfileComponent theme={theme}/>
-        <About theme={theme}/>
-        <ProjectTab />
+        <div className='px-7'>
+          <ProfileComponent theme={theme}/>
+          <About theme={theme}/>
+          <ProjectTab />
+
+          <Contact />
+        </div>
       </div>
     </div>
   )

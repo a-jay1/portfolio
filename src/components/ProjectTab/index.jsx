@@ -20,7 +20,7 @@ const ProjectTab = () => {
                 <div className="overflow-x-scroll w-full">
                     <div className="tab-title whitespace-nowrap gap-5 flex">
                         {projects.map((item, index) => (
-                            <Button key={index} txt={item.name} classname={'btn tab-btn'} onClick={() => handleTabChange(index)}/>
+                            <Button key={index} txt={item.name} classname={`tab-btn ${index == activeTab?'active': ''}`} onClick={() => handleTabChange(index)}/>
                         ))}
                     </div>
                 </div>
