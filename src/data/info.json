@@ -1,12 +1,40 @@
 {
+    "headerMenu": [
+            {
+                "name": "Home",
+                "link": "#"
+            },
+            {
+                "name": "Skills",
+                "link": "#"
+            },
+            {
+                "name": "Experience",
+                "link": "#"
+            },
+            {
+                "name": "Project",
+                "link": "#"
+            },
+            {
+                "name": "Contact Me",
+                "link": "#"
+            }
+        ],
     "profile" : {
         "img": "profile-1.png",
         "hey": "Hey",
         "name": "I’m Priti Jadhav",
         "role": "Associate software Engineer",
         "description": "A highly motivated student studying Artificial Intelligence and Machine Learning. Actively seeking opportunities to apply my skills and knowledge to real-world projects and contribute to the advancement of the industry.",
-        "btn1": "Experience - #Experience", 
-        "btn2": "Projects - #Projects"
+        "btn1": {
+            "value": "Experience",
+            "link": "#"
+        },
+        "btn2": {
+            "value": "Projects",
+            "link": "#"
+        }
     },
     "about" : {
         "title": "About Me",
@@ -22,9 +50,23 @@
             "languages": ["Python", "Django", "Javascript", "HTML", "CSS"]
         },
         {
-            "name": "Project 1",
+            "name": "Project 2",
             "img": "profile-1.png",
-            "title": "Content Analyzer",
+            "title": "Data Analyzer",
+            "description":" A robust tool designed for content creators, bloggers, and writers",
+            "languages": ["Python", "Django", "Javascript", "HTML", "CSS"]
+        },
+        {
+            "name": "Project 3",
+            "img": "profile-1.png",
+            "title": "Python Analyzer",
+            "description":" A robust tool designed for content creators, bloggers, and writers",
+            "languages": ["Python", "Django", "Javascript", "HTML", "CSS"]
+        },
+        {
+            "name": "Project 4",
+            "img": "profile-1.png",
+            "title": "Machine Analyzer",
             "description":" A robust tool designed for content creators, bloggers, and writers",
             "languages": ["Python", "Django", "Javascript", "HTML", "CSS"]
         }

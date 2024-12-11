@@ -1,6 +1,6 @@
 'use client';
 
-import Button from '../../components/ui';
+import Button from '../../components/ui/Button';
 import OrDivider from '../../components/ui/OrDivider';
 import Image from 'next/image';
 import { useState } from 'react';
