@@ -2,6 +2,7 @@
 
 import About from '@/components/about';
 import Contact from '@/components/Contact';
+import Experience from '@/components/Experience';
 import Navbar from '@/components/Navbar'
 import ProfileComponent from '@/components/Profile';
 import ProjectTab from '@/components/ProjectTab';
@@ -20,7 +21,7 @@ const Profile = () => {
           <ProfileComponent theme={theme}/>
           <About theme={theme}/>
           <ProjectTab />
-
+          <Experience />
           <Contact />
         </div>
       </div>

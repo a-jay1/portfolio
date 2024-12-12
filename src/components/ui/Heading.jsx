@@ -2,7 +2,7 @@
 const Heading = (props) => {
 
     const {title, align} = props;
-    const len = title.length;
+    const len = title?.length | 0;
 
     return (
         <div className="mt-12">
