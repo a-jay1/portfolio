@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Button from "../ui/Button";
 import Heading from "../ui/Heading";
 
@@ -8,10 +9,15 @@ const Contact = () => {
         const formData = new FormData(event.target);
 
         const response = await fetch('/api/mailer', {
-            method: 'post',
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
             body: formData
-        })
+        });
+
+        console.log(response, 'res');
+
     }
+
 
     return (
         <div className="">
