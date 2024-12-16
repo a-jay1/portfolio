@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --background: #000000;
   --foreground: #171717;
@@ -9,14 +10,20 @@
   --violet: #7733FF;
   --border-yellow: #F7A21E;
   --tab-btn: #232732;
+  --project-card: #232732;
+  --grey-txt: #999999;
 }
 
 .btn {
-  box-shadow: 10px 10px 12px 0px #00000040;
-  box-shadow: -7px -7px 10px 0px #FFFFFF40; 
+  box-shadow: -7px -7px 10px 0px #dedede0f;
   color: var(--txt);
   line-height: 28px;
   font-size: 11px;
+  cursor: pointer;
+}
+
+.profile h2 span {
+  color: #D32D20;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -60,9 +67,8 @@ body {
 /* project tab */
 
 .tab-btn {
+  cursor: pointer;
   transition: background-color 0.3s ease-in-out;
-  box-shadow: 10px 10px 20px 0px #00000040;
-  box-shadow: -10px -10px 20px 0px #FFFFFF40;
   background-color: var(--tab-btn);
   color: var(--txt);
   line-height: 28px;
@@ -71,4 +77,133 @@ body {
 
 .tab-btn.active {
   background-color: var(--violet);
+}
+
+/* certificate */
+
+.slick-active{
+  background-color: #ededed;
+}
+
+.project-card {
+  background-color: var(--project-card);
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.project-card .project-img {
+    border-radius: 16px;
+}
+
+.project-card h2 {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: var(--txt);
+}
+
+.project-card p, .project-card a {
+  font-size: 9px;
+  font-weight: 300;
+  line-height: 11px;
+  text-align: center;
+  color: var(--txt);
+}
+
+.tabs-section .lang {
+  overflow-x: scroll;
+  max-width: 100%;
+}
+
+.tabs-section .lang img{
+  min-width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+ 
+.tabs-section ul {
+  display: flex;
+  white-space: nowrap;
+  gap: 30px;
+}
+
+.tabs-section .project-details {
+  overflow: hidden;
+}
+
+/* certificate */
+
+.certificate-slider .slick-slide {
+  transition: transform 0.3s ease-in-out; /* Smooth transition for scaling */
+}
+
+.certificate-slider .slick-center {
+  transform: scale(1.2); /* Scale the center image */
+  z-index: 1; /* Bring the center image to the front */
+}
+
+.certificate-slider .slick-slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* exp */
+
+.exp .card {
+  border-radius: 24px;
+  margin: 7px 0px 7px 7px;
+  padding: 15px 10px 10px 15px;
+  border: 2px solid;
+  border-image-source: linear-gradient(65deg, #272C38 -2.22%, #1D2029 100%);
+  background: var(--project-card);
+  box-shadow: -10px -10px 12px 0px #ffffff0a;
+}
+
+.exp h1 {
+  color: var(--txt);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.exp h1 span {
+  color: #80FF02;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.exp h2 {
+  color: var(--grey-txt);
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.exp p {
+  color: var(--grey-txt);
+  font-size: 7px;
+  font-weight: 500;
+  line-height: 12px;
+}
+
+
+/* form */
+
+form input, form textarea {
+  background-color: var(--project-card);
+  padding: 12px 10px;
+  color: #FFFFFF80;
+}
+
+form input::placeholder {
+  color: #FFFFFF80;
 }

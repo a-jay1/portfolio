@@ -25,7 +25,7 @@
         "img": "profile-1.png",
         "hey": "Hey",
         "name": "I’m Priti Jadhav",
-        "role": "Associate software Engineer",
+        "role": "Associate software <span>Engineer</span>",
         "description": "A highly motivated student studying Artificial Intelligence and Machine Learning. Actively seeking opportunities to apply my skills and knowledge to real-world projects and contribute to the advancement of the industry.",
         "btn1": {
             "value": "Experience",
@@ -95,19 +95,19 @@
             "title" : "Education",
             "levels" : [
                 {
-                    "org": "Vellore Institute of Technology, Vellore",
-                    "duration": "2022 - Present",
-                    "description": "Bachelor of Technology in Computer Science and Engineering"
+                    "org": "Lorem ipsum dolor sit <span>amet</span>",
+                    "duration": "Lorem ipsum dolor | 28-12-23",
+                    "description": "Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequatDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat "
                 },
                 {
-                    "org": "Vellore Institute of Technology, Vellore",
-                    "duration": "2022 - Present",
-                    "description": "Bachelor of Technology in Computer Science and Engineering"
+                    "org": "Lorem ipsum dolor sit <span>amet</span>",
+                    "duration": "Lorem ipsum dolor | 28-12-23",
+                    "description": "Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequatDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat "
                 },
                 {
-                    "org": "Vellore Institute of Technology, Vellore",
-                    "duration": "2022 - Present",
-                    "description": "Bachelor of Technology in Computer Science and Engineering"
+                    "org": "Lorem ipsum dolor sit <span>amet</span>",
+                    "duration": "Lorem ipsum dolor | 28-12-23",
+                    "description": "Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequatDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat "
                 }
             ]
         },
@@ -115,19 +115,19 @@
             "title" : "Experience",
             "levels" : [
                 {
-                    "org": "Vellore Institute of Technology, Vellore",
-                    "duration": "2022 - Present",
-                    "description": "Bachelor of Technology in Computer Science and Engineering"
+                    "org": "xorem ipsum dolor sit <span>amet</span>",
+                    "duration": "Lorem ipsum dolor | 28-12-23",
+                    "description": "Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequatDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat "
                 },
                 {
-                    "org": "Vellore Institute of Technology, Vellore",
-                    "duration": "2022 - Present",
-                    "description": "Bachelor of Technology in Computer Science and Engineering"
+                    "org": "xorem ipsum dolor sit <span>amet</span>",
+                    "duration": "Lorem ipsum dolor | 28-12-23",
+                    "description": "Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequatDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat "
                 },
                 {
-                    "org": "Vellore Institute of Technology, Vellore",
-                    "duration": "2022 - Present",
-                    "description": "Bachelor of Technology in Computer Science and Engineering"
+                    "org": "xorem ipsum dolor sit <span>amet</span>",
+                    "duration": "Lorem ipsum dolor | 28-12-23",
+                    "description": "Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequatDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat "
                 }
             ]
         }

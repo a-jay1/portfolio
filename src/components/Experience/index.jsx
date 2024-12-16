@@ -4,12 +4,10 @@ import Heading from "../ui/Heading";
 
 const ExperienceSection = () => {
 
-  const { Experience } = data;
-
   return (
     <>
-        <Heading txt={'Experience'} align={'right'}/>
-        <ExperienceComponent data={data}/>
+        <Heading title={'Experience'} align={'right'}/>
+        <ExperienceComponent/>
     </>
   );
 };

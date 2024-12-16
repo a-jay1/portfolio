@@ -1,6 +1,7 @@
 "use client";
 
 import About from '@/components/about';
+import Certificate from '@/components/Certificate';
 import Contact from '@/components/Contact';
 import Experience from '@/components/Experience';
 import Navbar from '@/components/Navbar'
@@ -22,6 +23,8 @@ const Profile = () => {
           <About theme={theme}/>
           <ProjectTab />
           <Experience />
+          <Certificate />
+      
           <Contact />
         </div>
       </div>
