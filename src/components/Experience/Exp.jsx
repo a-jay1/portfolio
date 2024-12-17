@@ -15,7 +15,7 @@ const ExperienceComponent = () => {
       <div className='flex m-5 mt-7 justify-center gap-5'>
         {
           Experience.map((item,index) => (
-            <Button classname={`tab-btn ${currTab == index ? 'active': ''}`} txt={item.title} onClick={() => setCurrTab(index)} />
+            <Button key={index} classname={`tab-btn ${currTab == index ? 'active': ''}`} txt={item.title} onClick={() => setCurrTab(index)} />
           ))
         }
       </div>
